@@ -21,39 +21,39 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-container container">
-        <a href="#header" class="logo header-logo">
+      <div class="container header__container">
+        <a href="#header" class="logo header__logo">
           <span class="web">Web</span>Studio
         </a>
         <nav>
-          <ul class="lists">
-            <li class="item-services">
+          <ul>
+            <li class="nav__services">
               <a
-                class="header-link-nav active" 
+                class="nav__link active" 
                 href="#second">Студія</a>
             </li>
-            <li class="item-services">
+            <li class="nav__services">
               <a
-                class="header-link-nav"
+                class="nav__link"
                 rel="noopener noreferrer nofollow"
                 href="portfolio.html">Портфоліо
               </a>
             </li>
-            <li class="item-services">
+            <li class="nav__services">
               <a
-              class="header-link-nav" 
+              class="nav__link" 
               href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-          <ul class="lists contacts">
+          <ul class="contacts">
             <li>
                 <a
-                class="contact header-contact"
+                class="contact"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 href="mailto:info@devstudio.com">
-                <svg class="header-item" width="16" height="12">
+                <svg class="contact__img" width="16" height="12">
                   <use href="./img/icons.svg#mail"></use>
                 </svg>
                 info@devstudio.com
@@ -61,11 +61,11 @@
             </li>
             <li>
                 <a 
-                class="contact header-contact"
+                class="contact"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 href="tel:+380961111111">
-                <svg class=" header-item cont-tel" width="10" height="16">
+                <svg class="contact__img img-tel" width="10" height="16">
                   <use href="./img/icons.svg#smartphone"></use>
                   </svg>
                 +38 096 111 11 11
@@ -76,7 +76,7 @@
     </header>
 
     <main>
-      <section class="first wrapper">
+      <section class="first">
         <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
         <button type="button" class="btn" data-modal-open>Замовити послугу</button>
       </section>
@@ -84,50 +84,50 @@
       <section class="second indent">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="lists">
+          <ul>
             <li class="type">
-              <div class="img-technics">
-                <svg class="technics" width="70" height="70">
+              <div class="type__img">
+                <svg width="70" height="70">
                   <use href="./img/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="solution">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="description">
+              <h3 class="type__solution">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="type__description">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="type">
-              <div class="img-technics">
-                <svg class="technics" width="70" height="70">
+              <div class="type__img">
+                <svg width="70" height="70">
                   <use href="./img/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="solution">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="description">
+              <h3 class="type__solution">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="type__description">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне
                 у себе.
               </p>
             </li>
             <li class="type">
-              <div class="img-technics">
-                <svg class="technics" width="70" height="70">
+              <div class="type__img">
+                <svg width="70" height="70">
                   <use href="./img/icons.svg#diagram"></use>
                 </svg>
               </div>
-              <h3 class="solution">ПЛАНУВАННЯ</h3>
-              <p class="description">
+              <h3 class="type__solution">ПЛАНУВАННЯ</h3>
+              <p class="type__description">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="type">
-              <div class="img-technics">
-                <svg class="technics" width="70" height="70">
+              <div class="type__img">
+                <svg width="70" height="70">
                   <use href="./img/icons.svg#astronaut"></use>
                 </svg>
               </div>
-              <h3 class="solution">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="description">
+              <h3 class="type__solution">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="type__description">
                 Значимість цих проблем настільки очевидна, що реалізація планових
                 завдань.
               </p>
@@ -140,39 +140,39 @@
         <div class="container">
           <h2>Чим ми займаємося</h2>
           <div>
-            <ul class="lists office">
-              <li class="office-img">
+            <ul class="office">
+              <li class="office__img">
                 <img
                 width="370"
                 height="294" 
                 src="./img/jpg/keyboard.jpg" alt="Клавиатура"
                 >
-                <div class="office-item">
-                  <p class="office-text">
+                <div class="office__item">
+                  <p class="office__text">
                     Десктопні додатки
                   </p>
                 </div>
               </li>
-              <li class="office-img">
+              <li class="office__img">
                 <img
                 width="370"
                 height="294"
                 src="./img/jpg/phone.jpg" alt="Телефон"
                 >
-                <div class="office-item">
-                  <p class="office-text">
+                <div class="office__item">
+                  <p class="office__text">
                     Мобільні додатки
                   </p>
                 </div>
               </li>
-              <li class="office-img">
+              <li class="office__img">
                 <img 
                 width="370"
                 height="294"
                 src="./img/jpg/tablet.jpg" alt="Планшет"
                 >
-                <div class="office-item">
-                  <p class="office-text">
+                <div class="office__item">
+                  <p class="office__text">
                     Дизайнерські рішення
                   </p>
                 </div>
@@ -184,7 +184,7 @@
       <section class="fourth indent">
         <div class="container">
           <h2>Наша команда</h2>
-          <ul class="lists employees">
+          <ul class="employees">
             <li class="employee">
               <img
                 src="./img/foto/ihor.jpg"
@@ -192,40 +192,40 @@
                 width="270"
                 height="260"
               >
-              <div class="about">
-                <h3 class="name">Ігор Дем'яненко</h3>
-                <p class="position">Product Designer</p>
-                <ul class="lists team-contacts">
-                  <li class="team-network">
+              <div class="employee__about">
+                <h3 class="employee__name">Ігор Дем'яненко</h3>
+                <p class="employee__position">Product Designer</p>
+                <ul class="employee__contacts">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#linkedin"></use>
@@ -242,40 +242,40 @@
                 width="270"
                 height="260"
               >
-              <div class="about">
-                <h3 class="name">Ольга Рєпіна</h3>
-                <p class="position">Frontend Developer</p>
-                <ul class="lists team-contacts">
-                  <li class="team-network">
+              <div class="employee__about">
+                <h3 class="employee__name">Ольга Рєпіна</h3>
+                <p class="employee__position">Frontend Developer</p>
+                <ul class="employee__contacts">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact"
+                    class="employee__network-contact"
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact"
+                    class="employee__network-contact"
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact"  
+                    class="employee__network-contact"  
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#linkedin"></use>
@@ -292,40 +292,40 @@
                 width="270"
                 height="260"
               >
-              <div class="about">
-                <h3 class="name">Микола Тарасов</h3>
-                <p class="position">Marketing</p>
-                <ul class="lists team-contacts">
-                  <li class="team-network">
+              <div class="employee__about">
+                <h3 class="employee__name">Микола Тарасов</h3>
+                <p class="employee__position">Marketing</p>
+                <ul class="employee__contacts">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact"  
+                    class="employee__network-contact"  
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a 
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#linkedin"></use>
@@ -342,40 +342,40 @@
                 width="270"
                 height="260"
               >
-              <div class="about">
-                <h3 class="name">Михайло Єрмаков</h3>
-                <p class="position">UI Designer</p>
-                <ul class="lists team-contacts">
-                  <li class="team-network">
+              <div class="employee__about">
+                <h3 class="employee__name">Михайло Єрмаков</h3>
+                <p class="employee__position">UI Designer</p>
+                <ul class="employee__contacts">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="team-network">
+                  <li class="employee__network">
                     <a
-                    class="team-contact" 
+                    class="employee__network-contact" 
                     href="#">
                       <svg width="20" height="20">
                         <use href="./img/icons.svg#linkedin"></use>
@@ -391,10 +391,10 @@
       <section class="fifth indent">
         <div class="container">
           <h2>Постійні клієнти</h2>
-          <ul class="lists clients">
+          <ul class="clients">
             <li class="client">
               <a 
-              class="logo-client"
+              class="client__logo"
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo1"></use>
@@ -403,7 +403,7 @@
             </li>
             <li class="client">
               <a 
-              class="logo-client"
+              class="client__logo"
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo2"></use>
@@ -412,7 +412,7 @@
             </li>
             <li class="client">
               <a 
-              class="logo-client"
+              class="client__logo"
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo3"></use>
@@ -421,7 +421,7 @@
             </li>
             <li class="client">
               <a
-              class="logo-client"          
+              class="client__logo"          
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo4"></use>
@@ -430,7 +430,7 @@
             </li>
             <li class="client">
               <a 
-              class="logo-client"
+              class="client__logo"
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo5"></use>
@@ -439,7 +439,7 @@
             </li>
             <li class="client">
               <a 
-              class="logo-client"
+              class="client__logo"
               href="#">
                 <svg width="106" height="60">
                   <use href="./img/icons.svg#Logo6"></use>
@@ -452,18 +452,18 @@
     </main>
 
     <footer class="footer">
-      <div class="container container-footer">
-        <div class=" first-footer">
+      <div class="container footer__container">
+        <div class="first__footer">
           <a 
           href="#header" 
-          class="logo footer-logo">
+          class="logo footer__logo">
           <span class="web">Web</span>Studio
           </a>
           <address>
-            <ul class="info lists-address">
+            <ul class="address">
                 <li>
                     <a 
-                    class="map"
+                    class="address__map"
                     href="https://goo.gl/maps/7wfxN3DCD1bhWvAn9" 
                     target="_blank" 
                     rel="noopener noreferrer nofollow"
@@ -471,7 +471,7 @@
                 </li>
                 <li>
                     <a 
-                    class="address e-mail "
+                    class="address__contact"
                     href="mailto:info@devstudio.com"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
@@ -479,7 +479,7 @@
                 </li>
                 <li>
                     <a 
-                    class="address tel"
+                    class="address__contact tel"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     href="tel:+380961111111">+38 096 111 11 11</a>
@@ -487,12 +487,12 @@
             </ul>
           </address>
         </div>
-        <div class="second-footer">
+        <div class="second__footer">
             <b>приєднуйтесь</b>
-            <ul class="lists network">
+            <ul class="network">
               <li>
                 <a
-                class="contacts-footer" 
+                class="network__contacts" 
                 href="">                
                   <svg  width="20" height="20">
                     <use href="./img/icons.svg#instagram"></use>
@@ -501,7 +501,7 @@
               </li>
               <li>
                 <a
-                class="contacts-footer" 
+                class="network__contacts" 
                 href="">
                   <svg  width="20" height="20">
                     <use href="./img/icons.svg#twitter"></use>
@@ -510,7 +510,7 @@
               </li>
               <li>
                 <a
-                class="contacts-footer" 
+                class="network__contacts" 
                 href="">
                   <svg  width="20" height="20">
                     <use href="./img/icons.svg#facebook"></use>
@@ -519,7 +519,7 @@
               </li>
               <li>
                 <a
-                class="contacts-footer" 
+                class="network__contacts" 
                 href="">
                   <svg  width="20" height="20">
                     <use href="./img/icons.svg#linkedin"></use>
